@@ -53,4 +53,4 @@ Algoritma ini telah diintegrasikan kepada API streamlit yang dapat diaccess mela
 
 [Bike Sharing Predictor](https://bikesharingpredictor.streamlit.app/)
 
-to access app = http://localhost:8501/
+Local access = [local](http://localhost:8501/)
