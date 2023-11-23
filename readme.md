@@ -11,7 +11,7 @@ Source: Capital Bikeshare Analytic Report  [link](https://www.kaggle.com/dataset
 
 Periode: Januari 2011 hingga Desember 2012
 
-# Features:
+# Features
 - dteday: Tanggal
 - season: Musim 
 - yr: Tahun
@@ -38,6 +38,14 @@ Model prediktif yang diimplementasikan dalam proyek ini didasarkan pada analisis
 Model Winner: CatBoost
 
 Setelah eksperimen dan evaluasi yang teliti, algoritma CatBoost dipilih sebagai model final untuk memprediksi jumlah sewa sepeda. CatBoost sangat baik dalam menangani variabel kategori, mengotomatisasi penanganan nilai yang hilang, dan memberikan pelatihan yang efisien dengan regularisasi bawaan untuk mencegah overfitting.
+
+# Kesimpulan dan Saran
+
+Model terbaik untuk dataset ini adalah CatBoostRegressor(), sebuah model gradient boosting. Model ini konsisten memberikan performa MAPE yang relatif baik, yakni sekitar 23%, baik untuk data yang pernah dilihat maupun yang belum pernah dilihat sebelumnya. Hal ini menunjukkan kemampuannya dalam memprediksi data baru.
+
+Meskipun model ini cukup akurat, sebaiknya tetap mempertimbangkan margin of error saat menambah persediaan sepeda untuk menghindari opportunity cost. Gunakan margin of error berdasarkan rata-rata MAE tergantung klasifikasi jumlah target.
+
+Karena Tahun merupakan fitur signifikan; training model harus dilakukan pada dataset terbaru setiap beberapa bulan untuk menjaga performa jangka panjang.
 
 
 # Streamlit API
