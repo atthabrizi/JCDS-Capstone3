@@ -7,25 +7,27 @@ Tujuan utama dari dibangunnya algoritma ini adalah untuk membantu memberikan ins
 # About the Data
 
 Source: Capital Bikeshare Analytic Report  [link](https://www.kaggle.com/datasets/marklvl/bike-sharing-dataset)
+
+
 Periode: Januari 2011 hingga Desember 2012
 
 # Features:
-dteday: Tanggal
-season: Musim 
-yr: Tahun
-mnth: Bulan 
-hr: Jam
-holiday: Hari libur atau bukan (diekstrak dari Jadwal Libur)
-weathersit:
-1: Cerah, Beberapa awan, Sebagian berawan, Sebagian berawan
-2: Kabut + Berawan, Kabut + Awan pecah, Kabut + Beberapa awan, Kabut
-3: Salju ringan, Hujan ringan + Badai petir + Awan bertebaran, Hujan ringan + Awan bertebaran
-4: Hujan Lebat + Pallet Es + Badai Petir + Kabut, Salju + Kabut
-temp: Temperatur ternormalisasi dalam Celsius. Nilai ini dihasilkan melalui rumus (t-t_min)/(t_max-t_min), dengan t_min=-8, t_max=+39 (hanya dalam skala per jam)
-atemp: Temperatur terasa ternormalisasi dalam Celsius. Nilai ini dihasilkan melalui rumus (t-t_min)/(t_max-t_min), dengan t_min=-16, t_max=+50 (hanya dalam skala per jam)
-hum: Kelembaban ternormalisasi. Nilai ini dibagi oleh 100 (maksimum)
-casual: Jumlah pengguna kasual
-registered: Jumlah pengguna terdaftar
+- dteday: Tanggal
+- season: Musim 
+- yr: Tahun
+- mnth: Bulan 
+- hr: Jam
+- holiday: Hari libur atau bukan (diekstrak dari Jadwal Libur)
+- weathersit:
+- 1: Cerah, Beberapa awan, Sebagian berawan, Sebagian berawan
+- 2: Kabut + Berawan, Kabut + Awan pecah, Kabut + Beberapa awan, Kabut
+- 3: Salju ringan, Hujan ringan + Badai petir + Awan bertebaran, Hujan ringan + Awan bertebaran
+- 4: Hujan Lebat + Pallet Es + Badai Petir + Kabut, Salju + Kabut
+- temp: Temperatur ternormalisasi dalam Celsius. Nilai ini dihasilkan melalui rumus (t-t_min)/(t_max-t_min), dengan t_min=-8, t_max=+39 (hanya dalam skala per jam)
+- atemp: Temperatur terasa ternormalisasi dalam Celsius. Nilai ini dihasilkan melalui rumus (t-t_min)/(t_max-t_min), dengan t_min=-16, t_max=+50 (hanya dalam skala per jam)
+- hum: Kelembaban ternormalisasi. Nilai ini dibagi oleh 100 (maksimum)
+- casual: Jumlah pengguna kasual
+- registered: Jumlah pengguna terdaftar
 
 cnt: count of total rental bikes including both casual and registered
 
