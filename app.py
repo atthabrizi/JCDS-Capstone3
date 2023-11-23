@@ -85,8 +85,8 @@ def main():
         
 # Set a variable to store the output
         adjusted = ""
-        bin4 = 0.10
-        bin3 = 0.11
+        bin4 = 0.10 
+        bin3 = 0.11 
         bin2 = 0.15
         bin1 = 0.38
 
